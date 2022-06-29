@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "DigitalWorkSpace",
+    "environment": "spo",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "ModernWorkSpace",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "digital-work-space",
+    "libraryId": "7103754d-7edc-4de6-bd1e-8d390922f461",
+    "packageManager": "npm",
+    "solutionShortDescription": "DigitalWorkSpace description"
+  }
+}

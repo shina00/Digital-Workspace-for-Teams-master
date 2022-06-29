@@ -1,0 +1,87 @@
+p{margin: 0; padding: 0;}
+.productCard{
+    box-sizing: border-box;
+    width: calc(100% / 3 - 20px);
+    display: inline-block;
+    color: #1578bc;
+    // position: relative;
+    margin: 0 0 15px 15px;
+    border-top: 40px solid;
+    border-left: 1px #f2f2f2 solid;
+    border-right: 1px #f2f2f2 solid;
+    border-bottom: 1px #f2f2f2 solid;
+    border-radius: 7.5px 7.5px 0 0;
+
+    /* &::before{
+        content: '';
+        width: 100%;
+        height: 40px;
+        background-color: #1578bc;
+        position: absolute;
+        left: 0; top: 0;
+        z-index: -1;
+        border-radius: 7.5px 7.5px 0 0;
+    } */
+
+    .productCardDiv{
+        overflow: hidden;
+        padding: 0px 15px 0;
+        margin-top: -20px;
+
+        p{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        }
+    }
+
+    p:first-of-type{
+        color: #c5c5c5;
+        font-size: 11px;
+        padding-top: 5px;
+    }
+
+    &Image{
+        border-radius: 50%;
+        width: 50px; height: 50px;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    &Images{
+        display: inline-block;
+        position: relative;
+        top: -25px;
+        left: 95%;
+    }
+
+    &Title{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px 0 8px;
+    }
+    &Dept{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 0;
+    }
+    &Date{
+        color: #999999;
+        font-size: 8px;
+        padding: 5px 0;
+    }
+    &More{
+        font-size: 16px;
+        // margin-left: 5px;
+        background-color: transparent;
+        color: #1578bc;
+        padding: 2.5px 10px;
+        border-width: 1px;
+        letter-spacing: 2px;
+    }
+    .contentDispaySection{
+        font-size: 14px;
+        padding: 15px 0;
+        color: #1e1e1e;
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "digital-work-space-client-side-solution",
+    "id": "7103754d-7edc-4de6-bd1e-8d390922f461",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "DigitalWorkSpace description"
+      },
+      "longDescription": {
+        "default": "DigitalWorkSpace description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "digital-work-space Feature",
+        "description": "The feature that activates elements of the digital-work-space solution.",
+        "id": "c84459e6-1375-449c-a4c0-6b87c58ead71",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/digital-work-space.sppkg"
+  }
+}
